@@ -1,13 +1,16 @@
 import React from 'react'
 
+
+
 class Bikes extends React.Component {
     constructor(props) {
         super(props)
+        console.log(props)
+    
 
         this.state = {
-            style: {
-                backgroundColor: 'yellow',
-            },
+            image_path: props.bikeData.image
+
         }
 
         //bind
@@ -17,28 +20,20 @@ class Bikes extends React.Component {
     //onclick
     handleClick() {
         this.setState({
-            style: {
-                backgroundColor: 'blue'
-            }
+            image_path: this.props.bikeData.secondImage
         })
     }
 
 
-    clickHandler = evt => {
-        this.setState({
-            style: {
-                height: '250px',
-                width: '250px',
-                backgroundColor: '#000',
-            }
-        })
-    }
 
     render() {
         return (
             <div>
-            <h1>Liv Intrigue</h1>
-            <p>Bike bike vroom vroom no i'm not a car</p>
+                <h1>{this.props.bikeData.name}</h1>
+                <img src={this.state.image_path} onClick={this.handleClick} /> 
+                {/* can change to ternery and use boolean in state */}
+
+                <p>{this.props.bikeData.description}</p>
             </div>
         )
     }
