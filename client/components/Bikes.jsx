@@ -32,10 +32,19 @@ class Bikes extends React.Component {
         return (
             <div>
                 <h1>{this.props.bikeData.name}</h1>
-                <img src={this.state.image_path} onClick={this.handleClick} /> 
-                <img src={this.props.bikeData.gif} />
+                <div className='mainPhoto bikeMainPhoto'>
+                    <img src={this.state.image_path} onClick={this.handleClick} /> 
+                </div>
+                <div className='mainContent bikeMainContent'>
+                    <p>{this.props.bikeData.description}</p>
+                </div>
+
+                <div className='footer bikeFooter'> 
+                    <img src={this.props.bikeData.gif} />
+                </div>
+               
                 {/* can change to ternery and use boolean in state */}
-                <p>{this.props.bikeData.description}</p>
+               
                 
             </div>
         )
