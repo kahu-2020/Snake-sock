@@ -6,9 +6,9 @@ const Home = () => {
         <div>
             <h1>How curious are you?</h1>
             <div>
-              <button><Link to={'/Bikes'}>claire</Link></button>
-              <button><Link to={'/lui'}>lui</Link></button>
-              <button><Link to={'/ethan'}>ethan</Link></button>
+              <button><Link to={'/Bikes'}>Claire</Link></button>
+              <button><Link to={'/Santino'}>Lui</Link></button>
+              <button><Link to={'/ethan'}>Ethan</Link></button>
             </div>
 
         </div>
