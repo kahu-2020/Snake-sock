@@ -1,7 +1,7 @@
 {
   "name": "Snake-sock",
   "version": "0.2.2",
-  "description": "Team project",
+  "description": "Teamproject",
   "repository": "https://github.com/kahu-2020/Snake-sock.git",
   "main": "server/index.js",
   "author": "Gryffindor",
