@@ -1,6 +1,7 @@
 import React from 'react'
-//import image from '../../data/images/Santino1.jpg'
-
+//import Image from '../../data/images/Santino1.png'
+import { render } from 'enzyme'
+//import { Link } from 'react-router-dom'
 
 
 class Santino extends React.Component {
@@ -55,6 +56,7 @@ class Santino extends React.Component {
             <p>Arguably the greatest WWE superstar of all time, Santino Marella holds many records 
                 and achievements within the squared octagon.<br></br>Ever since debuting on the 16th of April in 2007, he's been 
                 without a doubt the biggest star in WWE history since Eugene back in 2004 <br></br>(despite Eugene failing 2 drug tests and being fired from the WWE).
+                He is a two-time WWE Intercontinental Champion, one-time<br></br> WWE United States Champion, and one-time WWE Tag Team Champion.
             </p>
             </div>
         )
