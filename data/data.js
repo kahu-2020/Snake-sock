@@ -9,7 +9,21 @@ const data = {
     menuImage: 'https://www.trixiecosmetics.com/static/footer-logo-e3c6965c6c6cec39515477409d024fe1.png'  
   },
   Santino : {
+    name: 'Santino Marella',
+    headerUrl:'',
+    bio:'Arguably the greatest WWE superstar of all time, Santino Marella holds many records and achievements within the squared octagon.Ever since debuting on the 16th of April in 2007, hes been without a doubt the biggest star in WWE history since Eugene back in 2004 (despite Eugene failing 2 drug tests and being fired from the WWE).He is a two-time WWE Intercontinental Champion, one-time WWE United States Champion, and one-time WWE Tag Team Champion.',
+    mainImages:'https://upload.wikimedia.org/wikipedia/commons/5/51/Santino_Marella_2010_Tribute_to_the_Troops.jpg',
+    headerImage:'',
+    footerImage:
+    
+},
 
+
+
+
+
+export default Santino
+'
   },
   Bikes : {
 
