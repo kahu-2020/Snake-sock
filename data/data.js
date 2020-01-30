@@ -1,5 +1,6 @@
 const data = {
-  Trixie : {
+
+  Trixie : { 
     name: 'Trixie Mattel',
     headerUrl: 'https://www.trixiemattel.com/wp-content/uploads/2019/10/title-hero-updated.png',
     bio: 'Trixie Mattel is the stage name of Brian Michael Firkus, an American singer, actor, drag queen and recognized “Skinny Legend.” Trixie is the winner of “RuPaul’s Drag Race All Stars” season 3 (originally competing on season 7). He is also a Billboard Heatseekers #1 charting recording artist (One Stone, 2018), a wildly successful theater touring act, and one half of a comic duo on Viceland (“The Trixie and Katya Show”) and on YouTube (“UNHhhh”). In 2019, Trixie will be working the festival circuit as the subject of a bio documentary, “Trixie Mattel: Moving Parts.” Trixie Mattel is managed by Producer Entertainment Group and online at trixiemattel.com or @trixiemattel.',
@@ -14,21 +15,16 @@ const data = {
     bio:'Arguably the greatest WWE superstar of all time, Santino Marella holds many records and achievements within the squared octagon.Ever since debuting on the 16th of April in 2007, hes been without a doubt the biggest star in WWE history since Eugene back in 2004 (despite Eugene failing 2 drug tests and being fired from the WWE).He is a two-time WWE Intercontinental Champion, one-time WWE United States Champion, and one-time WWE Tag Team Champion.',
     mainImages:'https://upload.wikimedia.org/wikipedia/commons/5/51/Santino_Marella_2010_Tribute_to_the_Troops.jpg',
     headerImage:'',
-    footerImage:
-    
-},
-
-
-
-
-
-export default Santino
-'
+    footerImage:''
   },
+   
   Bikes : {
-
+    name: 'Mountain bikes, road bikes, all bikes',
+    image: "https://skoda-wlc.s3.amazonaws.com/2/2016/09/AudreyHepburn1954.jpg",
+    secondImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwGsJ5Dmh6J3E2VATOKoEoBKLxLBvX-uWUM_bqYTTG6xP88fHf&s",
+    description: "Bike bike i'm a bike, vroom vroom not a car"
   }
-
 }
+
 
 export default data
