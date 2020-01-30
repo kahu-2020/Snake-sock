@@ -2,6 +2,7 @@ import React from 'react'
 
 
 
+
 class Bikes extends React.Component {
     constructor(props) {
         super(props)
@@ -9,6 +10,7 @@ class Bikes extends React.Component {
     
 
         this.state = {
+
             image_path: props.bikeData.image
 
         }
@@ -28,12 +30,22 @@ class Bikes extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="mainWrapper">
                 <h1>{this.props.bikeData.name}</h1>
-                <img src={this.state.image_path} onClick={this.handleClick} /> 
-                {/* can change to ternery and use boolean in state */}
+                <div className='mainPhoto bikeMainPhoto'>
+                    <img src={this.state.image_path} onClick={this.handleClick} /> 
+                </div>
+                <div className='mainContent bikeMainContent'>
+                    <p>{this.props.bikeData.description}</p>
+                </div>
 
-                <p>{this.props.bikeData.description}</p>
+                <div className='footer bikeFooter'> 
+                    <img src={this.props.bikeData.gif} />
+                </div>
+               
+                {/* can change to ternery and use boolean in state */}
+               
+                
             </div>
         )
     }
