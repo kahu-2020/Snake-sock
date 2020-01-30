@@ -1,5 +1,6 @@
 const data = {
-  Trixie : {
+
+  Trixie : { 
     name: 'Trixie Mattel',
     headerUrl: 'https://www.trixiemattel.com/wp-content/uploads/2019/10/title-hero-updated.png',
     bio: 'Trixie Mattel is the stage name of Brian Michael Firkus, an American singer, actor, drag queen and recognized “Skinny Legend.” Trixie is the winner of “RuPaul’s Drag Race All Stars” season 3 (originally competing on season 7). He is also a Billboard Heatseekers #1 charting recording artist (One Stone, 2018), a wildly successful theater touring act, and one half of a comic duo on Viceland (“The Trixie and Katya Show”) and on YouTube (“UNHhhh”). In 2019, Trixie will be working the festival circuit as the subject of a bio documentary, “Trixie Mattel: Moving Parts.” Trixie Mattel is managed by Producer Entertainment Group and online at trixiemattel.com or @trixiemattel.',
@@ -9,12 +10,15 @@ const data = {
     menuImage: 'https://www.trixiecosmetics.com/static/footer-logo-e3c6965c6c6cec39515477409d024fe1.png'  
   },
   Santino : {
-
+   
   },
   Bikes : {
-
+    name: 'Mountain bikes, road bikes, all bikes',
+    image: "https://skoda-wlc.s3.amazonaws.com/2/2016/09/AudreyHepburn1954.jpg",
+    secondImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwGsJ5Dmh6J3E2VATOKoEoBKLxLBvX-uWUM_bqYTTG6xP88fHf&s",
+    description: "Bike bike i'm a bike, vroom vroom not a car"
   }
-
 }
+
 
 export default data
