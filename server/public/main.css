@@ -6,7 +6,7 @@ body {
 .mainWrapper {
     display: flex;
     background-color: rgb(108, 207, 199);
-    padding: 10px;
+    
     text-align: center;
 }
 
@@ -35,20 +35,18 @@ body {
 }
 
 
-.bikeFooter {
-    display: inline-flex; 
-}
-.bikeFooter img {
-    height: 15pc;
+.footImage {
+    height: 25pc;
     position: absolute;
-    bottom: 10px;
-    width: 500px;
-    align-content: center;
-    padding: 0pc 0pc 0pc 40pc;
+    bottom: 1px;
+    left: 0;
+    width: 100pc;
+
 }
 
 .mainPic {
-    height: 600px;
+    width: 800px;
+    height: 500px;
 }
 
 h1 {

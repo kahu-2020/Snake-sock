@@ -34,12 +34,12 @@ const data = {
   },
   Bikes : {
     name: 'Bikes bikes bikes',
-    image: "https://sportsgroundproduction.blob.core.windows.net/cms/4734/45206/968234/0cbb38f5-3d62-4ca8-824c-24068c3ed34e_wo.png",
-    secondImage: "https://skoda-wlc.s3.amazonaws.com/2/2016/09/AudreyHepburn1954.jpg",
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYisUhYH2zwK4IfLcooz3D_ipgkVgAuDKeU-1o9m3VlHpfDmew',
+    secondImage: "https://designmodo.com/wp-content/uploads/2015/08/wheels.gif",
     description: "Bike bike i'm a bike, vroom vroom not a car!",
     info: "The first bike was created in 1817 and was called the running machine. There are over one billion bicycles found throughout the world. Bicycles are used for transport, recreation, competitive racing, courier delivery and a range of other tasks. Tandem bicycles are made to be ridden by two or more people. Although unicycles (one wheel) and tricycles (three wheels) don’t have two wheels, they are sometimes still referred to as ‘bikes’. Cycling became increasing popular in the early stages of the 20th century as cycling clubs and races caught on. Bicycling is still popular today! Whoop",
-    gif: "https://designmodo.com/wp-content/uploads/2015/08/wheels.gif",
-    trails: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQZrRzx9WlJ9QuveoW6UbgprEv6iknQ1kr_4wW-u3mh3PgyCdS1"
+    footImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTGopx-ULWm16wysgEYCcWuHbfVKZDVCCOm1mWzn_bln0Zn-Gu",
+    
   }
 }
 

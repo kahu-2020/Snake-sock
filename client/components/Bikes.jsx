@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Bicycle from './Bicycle'
 
 
 
@@ -36,7 +35,7 @@ class Bikes extends React.Component {
 
     render() {
         return (
-            <div>
+        
                 <div className='mainWrapper'>
                     <div className='mainPhoto bikeMainPhoto'>
                         <img className='mainPic' src={this.state.image_path} onClick={this.handleClick} onContextMenu={this.leftClick} />
@@ -46,18 +45,12 @@ class Bikes extends React.Component {
                     <div className='mainContent bikeMainContent'>
                         <p>{this.props.bikeData.description}</p>
                         <p>{this.props.bikeData.info}</p>
-                        
                     </div>
                 </section>
+                <div>
+                    <img className='footImage' src={this.props.bikeData.footImage} />
                 </div>
-                <div className='footer bikeFooter'>
-                    <Bicycle bikeData= {this.props} />
-                </div>
-                
-
-               
-
-
+            
             </div>
         )
     }
