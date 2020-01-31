@@ -5,6 +5,18 @@ body {
     background-image: linear-gradient(to bottom, #61D8D2, #3A9ABB)
 }
 
+.mainWrapper {
+    display: flex;
+    background-color: rgb(108, 207, 199);
+    padding: 10px;
+}
+
+
+.mainBodyWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
 img {
     margin: 0px;
     padding: 0px;
