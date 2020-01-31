@@ -1,6 +1,8 @@
 body {
+    margin: 0px;
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(to bottom, #61D8D2, #3A9ABB)
 }
 
 .mainWrapper {
@@ -15,46 +17,59 @@ body {
     flex-direction: row;
 }
 
+img {
+    margin: 0px;
+    padding: 0px;
+}
+
+.trixieMainBodyWrapper {
+    display: flex;
+    flex-direction: row;
+}
 
 .mainPhoto img {
     width: 410px;
 }
 
-
-.contentWrapper {
+.trixieMainWrapper {
     width: 290;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-.sidebarMenu {
-    display: none;
+.trixieMiniImg {
+    padding-top: 50px;
 }
 
-
-.bikeFooter {
-    display: inline-flex; 
-}
-.bikeFooter img {
-    height: 285px;
-    position: absolute;
-    bottom: 10px;
-    width: 500px;
-    padding: 0px 0px 0px 500px;
-}
-
-.mainPic {
-    height: 600px;
-}
-
-h1 {
-    font-size: 100px;
-}
-
-p {
-    font-size: 20px;
-    padding: 20px;
+.trixieMainHeader {
+    padding-top: 35px;
     color: white;
+}
+
+.trixieMainContent {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+.header-bit {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-bit ul {
+    padding-top: 50px;
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+.header-bit ul li {
+    background-color: #F8BED7;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
 }
