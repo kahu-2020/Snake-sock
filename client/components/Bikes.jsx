@@ -30,7 +30,7 @@ class Bikes extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="mainWrapper">
                 <h1>{this.props.bikeData.name}</h1>
                 <div className='mainPhoto bikeMainPhoto'>
                     <img src={this.state.image_path} onClick={this.handleClick} /> 

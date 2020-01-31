@@ -1,12 +1,26 @@
 body {
     padding: 0px;
     font-family: 'Josefin Sans', sans-serif;
+}
 
+.mainBodyWrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainPhoto img {
+    width: 410px;
+}
+
+.contentWrapper {
+    width: 290;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarMenu {
+    display: none;
 }
 
 
-.bikeFooter img {
-    height: 100px;
-    position: absolute;
-    bottom: 10px;
-}
