@@ -14,7 +14,7 @@ const App = () => {
   return (
     <Router>
       
-      <div>
+      <div className="container">
         <Route exact path='/' component={Home} />
         <Route path='/Bikes' render={(props) => <Bikes {...props} bikeData={data.Bikes} />} />
         <Route path="/trixie" render={(props) => <Trixie {...props} trixie={data.Trixie} />} />
