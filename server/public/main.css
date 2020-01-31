@@ -8,8 +8,11 @@ body {
     flex-direction: row;
 }
 
-.mainPhoto img {
+.santinoMainPhoto img {
     width: 410px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 35%;
 }
 
 .contentWrapper {
@@ -21,4 +24,27 @@ body {
 
 .sidebarMenu {
     display: none;
+}
+
+.santinoMainContent {
+    border-style: solid;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.60);
+    flex: auto;
+    font-size: xx-large;
+
+
+}
+
+.footerImage {
+    background-color: black;
+}
+
+.Logo {
+    flex-direction: column;
+    padding-left: 40%;
+}
+
+.title {
+    padding-left: 35%;
 }
