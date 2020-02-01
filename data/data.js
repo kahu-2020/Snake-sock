@@ -34,7 +34,7 @@ const data = {
     headerUrl:'',
     bio:'Arguably the greatest WWE superstar of all time, Santino Marella holds many records and achievements within the squared octagon.Ever since debuting on the 16th of April in 2007, hes been without a doubt the biggest star in WWE history since Eugene back in 2004 (despite Eugene failing 2 drug tests and being fired from the WWE).He is a two-time WWE Intercontinental Champion, one-time WWE United States Champion, and one-time WWE Tag Team Champion.',
     mainImages:'https://upload.wikimedia.org/wikipedia/commons/5/51/Santino_Marella_2010_Tribute_to_the_Troops.jpg',
-    //mainImage2:'https://i.pinimg.com/236x/2e/d6/f6/2ed6f6edc9e390cbc6ce9da1742c391f--santino-marella-pirelli.jpg',
+    mainImage2:'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d704cdfb-c825-4d16-8962-909e063cb2b7/d7i3sks-7bd9950a-a751-4285-8d50-74e550df623c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q3MDRjZGZiLWM4MjUtNGQxNi04OTYyLTkwOWUwNjNjYjJiN1wvZDdpM3Nrcy03YmQ5OTUwYS1hNzUxLTQyODUtOGQ1MC03NGU1NTBkZjYyM2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BlCkikGVLZqfvke0hrca_ZEdNj-A9aG6VodMs03_cHc',
     headerImage:'https://1000logos.net/wp-content/uploads/2017/05/WWE-logo.png',  
     footerImage1: 'https://vignette.wikia.nocookie.net/wmmainevent/images/d/d3/Wwe-intercontinental-championship-98-11.png/revision/latest?cb=20170715035538',
     footerImage2: 'https://upload.wikimedia.org/wikipedia/en/d/d4/World_Tag_Team_Championship.png',

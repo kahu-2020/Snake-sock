@@ -44,6 +44,11 @@ class Santino extends React.Component {
 
                     <article className="santinoMainContent">
                         <p> Arguably the greatest WWE superstar of all time, Santino Marella holds many records and achievements within the squared octagon. Ever since debuting on the 16th of April in 2007, hes been without a doubt the biggest star in WWE history since Eugene back in 2004 (despite Eugene failing 2 drug tests and being fired from the WWE).He is a two-time WWE Intercontinental Champion, one-time WWE United States Champion, and one-time WWE Tag Team Champion. </p>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <p>Anthony Carelli (born March 14, 1974) is a Canadian professional wrestler, sports analyst, web series host, trainer, former mixed martial artist and occasional actor. He currently works for Impact Wrestling under his real name. He is perhaps best known for his 11-year tenure with WWE where he wrestled under the ring name Santino Marella. He is the founder of Canadian martial arts and professional wrestling training facility Battle Arts Academy.</p>
                     </article>
                 <div className="footerImage" >
                     <img src={this.props.santino.footerImage1}height='200' width='400'/>
