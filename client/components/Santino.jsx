@@ -14,7 +14,14 @@ class Santino extends React.Component {
 
     handleClick() {
         this.setState({
-                image_path : this.props.santino.footerImage2
+                image_path : this.props.santino.mainImage2
+        })
+    }
+
+    leftClick = evt => {
+        evt.preventDefault()
+        this.setState({
+            image_path: this.props.santino.mainImages
         })
     }
 
@@ -29,7 +36,7 @@ class Santino extends React.Component {
                     <img  src={this.props.santino.headerImage} height='250' width='250'/>
                     </div>
                 <div className="mainPhoto santinoMainPhoto"> 
-                    <img src={this.props.santino.mainImages} height='600'  /> 
+                    <img src={this.state.image_path} onClick={this.handleClick} onContextMenu={this.leftClick} height='600'  /> 
                 </div>
                 <section className="mainWrapper MainWrapper">
                    
